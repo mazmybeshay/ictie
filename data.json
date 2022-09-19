@@ -1,0 +1,1200 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hi","Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","hy","welcome"],
+         "responses": ["Hello &#128515 &#128075","Good to see you again &#128515 &#128075", "Hi there, how can I help?"],
+         "context": [""]
+        },
+               
+        {"tag": "notatrack",
+        "patterns": ["i need to learn","I need to Learn ","I need to Learn asdasd","I need to Learn1212412","I need to Learn kdsjcv","I need to Learn   ","I need to Learn     ","I need to Learn cxvgfsk","qazswxced","I need to Learn amkamj","I need to Learn yassa","I need to Learn osama","I need to Learn milad","I need to Learn","I need to Learn     ","I need to Learn ovcf"],
+        "responses": ["what do you mean &#128528"],
+        "context": [""]
+         },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": [ "Have a nice day &#128075", "Bye &#128546 &#128075! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "notcorrect",
+         "patterns": [" ","  ","   ","     ","","0","01", "012", "0123", "01234", "012345","0123456","01234567","012345678","0123456789","asd",">","<",".","/","~","''","{}","[]","+","-","_"],
+         "responses": ["Sorry,i can't understand you &#128528, Please give me more info","Not sure I understand &#128528"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks"],
+         "responses": ["Happy to help &#128519","My pleasure &#128519"],
+         "context": [""]
+        },
+
+        {"tag": "have_aqu",
+         "patterns": ["i have a question","i need to ask","i need to ask about somethink"],
+         "responses": ["go ahead &#128521"],
+         "context": [""]
+          
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can answer your questions in any track &#128526"],
+         "context": [""]
+        },
+
+        {"tag": "beginner",
+         "patterns": ["beginner", "im a beginner", "i'm beginner", "you can say a beginner"],
+         "responses": ["do you have any experience about any track &#10068 ,or you know which track you will choose &#10067"],
+         "context": [""]
+        },
+        {"tag": "mildly",
+         "patterns": ["mildly", "im a mildly", "i'm mildly", "you can say a mildly", "between beginner and professional"],
+         "responses": ["do you know which track you will choose &#10067"],
+         "context": [""]
+        },
+        {"tag": "professional ",
+         "patterns": ["professional ", "im a professional ", "i'm professional ", "you can say a professional", "i have a lot of experience"],
+         "responses": ["i'm happy for you &#128515 &#128516, so who can i help you"],
+         "context": [""]
+        },
+        {"tag": "know",
+         "patterns": ["yes","yes i know", "i know which track i will choose", "i know"],
+         "responses": ["thats good &#128515, so have a good time and if need me you know where you find me"],
+         "context": [""]
+        },
+        {"tag": "have_ex",
+         "patterns": ["i have some experience", "I have little experience", "not to much"],
+         "responses": ["thats good &#128515, so do you know which track you will choose"],
+         "context": [""]
+        },                
+        {"tag": "cyber_security",
+         "patterns":["learn cyber security","i want to learn cyber security","i want to learn pen testing ","i want to learn vulnerability analysis",
+         "vulnerability","network scan","Computer security","What do cyber security do",
+         "What are the 5 types of cyber security","Is cybersecurity a good career","Where is cyber security used",
+         "What skills are needed for cyber security","What education is needed for cyber security","Is cyber security hard",
+         "what is metasploit","what is ","what is hydra ","what is ","what is nmap","what is aircrack","we use nmap for what",
+         "we use nessus for what","we use kali for what","we use proxy for what","what is firewall","what is nat","smb potocol",
+         "what is Application security","what is Network security","what is Cloud security",
+         "what is Malware","what is Emotet","what is Denial of Service","what is Man in the Middle","What Is a Cyber Security Threat",
+         "Types of Cyber Security Threats","what is Phishing","what is SQL Injection","what is Password Attacks"],
+         "responses": ["<html><head><style>#tt{width: 200px;height: 200px;}</style></head><body><p>you can go to this link to know all the stuff about cyber security <a href='https://localhost:44360/Home/Video#Video_3'>link</a>and if you want to search about a company in this track write cyber security and the center like cyber security assuit</p><br><center><img src='https://lh3.googleusercontent.com/cst8_BvxQOy9nJ7dFF6_Mni1xyL3mcwcWjY2QbStPe1tNlh1S4Nvkya-W1prrvXqOKw=h500' id='tt'></center></body></html>"],
+         "context": [""]
+        },
+        {"tag": "desktop",
+         "patterns": ["learn desktop","i want to learn desktop","i want to build a desktop application","i need to learn c# in desktop","Computer Application","What are desktop applications","Types of computer applications","What are the four types of desktop applications","What are the components of a desktop application",
+         "What are standard desktop applications","Is Facebook a desktop application","What are the 5 major computer applications","What are the 3 types of software","What is the difference between desktop application and Windows application"],
+         "responses": ["<html><head><style>#tt{width: 200px;height: 200px;}</style></head><body><p>you can know all the stuff about the desktop in this <a href ='https://localhost:44360/Home/Video#Video_4'>link</a>and if you want to search about a company in this track write desktop and the center like desktop assuit</p><br><center><img src='http://risingwings.in/images/services/desktopapplication.png' id='tt'></center></body></html>"],
+         "context": [""]
+        },
+        {"tag": "flutter",
+         "patterns": ["learn flutter","i need to learn flutter","What is Flutter used fo","What language is Flutter","Is Python a Flutter","Is Flutter a frontend or backend",
+         "Why is Flutter not popular","Should I learn Flutter in 2021","Is Flutter worth learning","Can I use C++ in Flutter","Which is better Flutter or Django",
+         "Can we use AI in Flutter","Does Google use Flutter","Can you use SQL with Flutter","Is Flutter full stack","Can I use Flutter with PHP"
+         ,"Does Apple support Flutter","flutter","who to build Google Ads","who to build KlasterMe","who to build Reflectly","who to build Xianyu by Alibaba","who to build Postmuse – Instagram photo editing app","who to build Take Your Seat – Developed by Intelivita","who to build Lunching"
+         ,"who to build Pairing","who to build Watermaniac","who to build Cryptograph","who to build Hamilton","who to build  Meritec Digital Learning – Developed by Intelivita","who to build BeerCert – Developed by Intelivita","who to build Pay N Park – Developed by Intelivita",
+         "Panache","Supernova","Codemagic","Sylph","Amplitude","Count.ly","AppsFlyer","Instabug","Airship","WonderPush","RevenueCat","Square","who to build Todo","who to build Calculator App"
+         ,"who to build Hangman Game","who to build BMI Calculator","who to build Tic Tac Toe Game in flutter","who to build Habit Tracker"],
+         "responses": ["<html><head><style>#tt{width: 200px;height: 200px;}</style></head><body><p>you can know all the stuff about flutter in this <a href='https://localhost:44360/Home/Video#Video_2'>link</a>and if you want to search about a company in this track write Flutter and the center like Flutter assuit</p><br><center><img src='https://play-lh.googleusercontent.com/5e7z5YCt7fplN4qndpYzpJjYmuzM2WSrfs35KxnEw-Ku1sClHRWHoIDSw3a3YS5WpGcI' id='tt'></center></body></html>"],
+         "context": [""]
+        },
+        {"tag": "web_development",
+         "patterns": ["learn web","I need to know how to build web site","build a website","I need to Learn Bootstrap","I need to Learn Jquery","I need to Learn .net","I need to Learn Asp .Net Web Aplication","I need to Learn Angular",
+         "i need to learn html","i need to learn css","i need to learn js","i need to learn JavaScript","I need to Learn web development"],
+         "responses": ["<html><head><style>#tt{width: 200px;height: 200px;}</style></head><body><p>you can learn all the stuff about web development in this track <a href ='https://localhost:44360/Home/Video#Video_1'>link</a>and if you want to search about a company in this track write web and the center like web assuit</p><br><center><img src='https://amovex.com/images/service/web_application/img1.png' id='tt'></center></body></html>"],
+         "context": [""]
+        },
+        {"tag": "website",
+         "patterns": ["what this web site talk about","what this web site use for","what this web site contains","what is the contains of this web site",
+         "what is the beneficialness of this web site","how this web site help me","are this web site useful","what is this web site","'I can not understand this web site","can you tell me more about this web site",
+         "this is my first visiting to this web site","I have never use this web site before ","I need to know more about this web site","this web site look different"
+         ,"tell me the sententiousness of the web site","tell me about this web site","what the web site have","I have not use this web site before","what is the benfit of using the web site","tell me what you know about the web site"],
+        "responses": ["This web site includes teaching more than one track and giving a certificate in every track. In addition, it allows you to find a job"],
+        "context": [""]
+        },
+        
+        {"tag":"chatbot_name",
+        "patterns":["who are you","what is your name","what is this chat","what I call you"
+        ,"your name","what shouled call you","i need to konw your name","who are you","i want to konw more information about you"],
+        "responses":["my name is lisa &#128515,i'm a chatbot &#128587"],
+        "context": [""]
+        },
+          {"tag":"register",
+          "patterns":["how can I have a account","I do not know how I register in this web site","I want to sign up ","I need to make an account "
+          ,"what is the fist thing I have to do here","should I put my phone number or gimal","how can I make a correct password","I try to sign up to the web site but I do not know how"
+          ,"tell me how I sign up ","I need some hellp to login in to the web site"],
+          "responses":["To register on the website, first write your name, phone number, e-mail, and a good password long and strong"],
+          "context": [""]
+          },
+        {
+        "tag":"work",
+        "patterns":["I need a job","how can I find a job","how I can find the better company ","how can I make a money","I want to work",
+        "after complete the certificat what should I do with it","can I get a job","money","work","job"],
+        "responses":["you can Share your certificate and the company &#128587 will see your quality and your experience"],
+        "context": [""]
+        },
+         {
+         "tag":"emoution",
+         "patterns":["i like you","i love you","i think you are kind","you are nice","you are generous","you are bounteous","you are lavish"," you are cool"],
+         "responses":["Thanks, I have the same feeling for you &#128155"],
+         "context": [""]
+         },
+        {
+        "tag":"communicate",
+        "patterns":["I have a problem with me code","I can not understand a part in my traning","can I get hellp","can any one hellp me",
+        "I see a phone number in some one account","what is the benefits of the gimal","what is the benfit of the phone number","can I talk to person that get my certificat before"
+        ,"communcation with other","I see a acount get my certificat","I want to communcate with anyone in this web site","there is many user in this web site"],
+        "responses":["you can communicate &#128172 with anyone &#128100 with the phone number or by e-mail"],
+        "context": [""]
+        },
+        {
+        "tag":"my_profile",
+        "patterns":["I need to change my picture","I need to change my phone number","I need to change my gmail","my profile"
+        ,"my accounte","how can I change my password","I forgot password","how can I change my name","can I change my user name"
+        ,"I can not remember my pasword","my password not strong enough","how can I remove my picture","how can add a picture","where I find my information"],
+        "responses":["you can find all your information &#128196 and changing it in your profile"],
+        "context": [""]
+        },
+        {
+        "tag":"engineer",
+        "patterns":["isaac","osama","yassa","yousef","melad","who built you","who built this web site","what is the name of the engineer who is built this web site","I want to communcate with the owner","can I know I owner"
+        ,"the owner","the designer","who design this web site ","who made all this"],
+        "responses":["you can find all the information about that in about us page &#128240"],
+        "context": [""]
+        },
+        {
+        "tag":"do_not_know",
+        "patterns":["no","no i dont","I dont have any experience about any track","I do not have any experience about any track","i dont know which track should i choose","i do not know which track should i choose","From what track should I start","I do not know what to choose"
+        ,"can you tell me which track should i start","which track should i start","i want to start in track bout i do not which one i choose",
+        "i need to choose a track","from where should i start training"],
+        "responses":["there is a description &#128221 before every track,this description will explain each track ,read it  &#128515"],
+        "context": [""]
+        },
+        {"tag":"python",
+        "patterns": ["python","what is python","python use for what"],
+        "responses": ["python is a programming language"],      
+        "context": [""]
+        },
+        {"tag":"print_in_python",
+        "patterns": ["print in python","how to print word in python","what is print in python in python","print in python"],
+        "responses": ["print('hi')"],      
+        "context": [""]
+        },
+        {"tag":"Variables_in_python",
+        "patterns":["int in python","string python","Creating Variables in python","Variables in python","how to create Variables in python"],
+        "responses": ["variable is created the moment you first assign a value to it like : x=10 or y=egypt"],
+        "context": [""]
+        },
+        {"tag":"Comment_in_python",
+        "patterns":["how to Creating a Comment in python","Creating a Comment in python","Comment in python"],
+        "responses": ["you can create a comment in python by write #"],
+        "context": [""]
+        },
+        {"tag":"Variable_in_python",
+        "patterns":["how to create Variable Names in python","Variable Names in python"],
+        "responses": ["you can create variable name like: myvar = 5  "],
+        "context": [""]
+        },
+        {"tag":"function_in_python",
+        "patterns":["create function in python","function in python","def in python"],
+        "responses": ["you create function def myfunc(): "],
+        "context": [""]
+        },
+        {"tag":"Boolean_in_python",
+        "patterns":["how to create Boolean Values in python","Boolean Values in python","True or False in python","boolean in python"],
+        "responses": ["you can create a boolean like:  print(10 < 9) the out will be false "],
+        "context": [""]
+        },
+        {"tag":"Operators_in_python",
+        "patterns":["Operators in python","Addition in python","Subtraction in python","Multiplication in python","Division in python","Modulus in python"],
+        "responses": ["Addition : x+y ,Subtraction:x - y,Multiplication: x * y ,Division:x / y ,Modulus:x % y"],
+        "context": [""]
+        },
+        {"tag":"Comparison_Operators_in_python",
+        "patterns":["Comparison Operators in python","Equal inpython","Not equal in python","Greater than in python","Less than in python","Greater than or equal to in python","Less than or equal to in python"],
+        "responses": ["Equal:x == y, not equal:x != y ,Greater than:x > y, Less than:x < y ,Greater than or equal :x >= y ,Less than or equal:x <= y"],
+        "context": [""]
+        },
+        {"tag":"If_in_python",
+        "patterns":["If statements in python","if in python","if Condition in python"],
+        "responses": ["if statement write like this  if x > y: and in the next line take a speace and write what if statment will do"],
+        "context": [""]
+        },
+        {"tag":"While_in_python",
+        "patterns":["While Loops in python","While in python"],
+        "responses": ["at first write i=1 in the next line write while i < 6 or any num you want and next line write what while will do ,in the last line write i+=1"],
+        "context": [""]
+        },
+        {"tag":"For_in_python",
+        "patterns":["For Loops in python","For in python"],
+        "responses": ["at the fist line write for x in range(6) next line take speace and write what for will do"],
+        "context": [""]
+        },
+        {"tag":"Class_in_python",
+        "patterns":["Create a Class in python","Class in python"],
+        "responses": ["to create a class write class MyClass:"],
+        "context": [""]
+        },
+        {"tag":"Logical_Operators_in_python",
+        "patterns":["Logical Operators in python","and in python","or in python"],
+        "responses": ["and example : x < 7 and  x < 12 , or example : x < 5 or x < 4"],
+        "context": [""]
+        },
+        {
+        "tag":"info_html",
+        "patterns":[" What does HTML stand for?"],
+        "responses":[" Hyper Text Markup Language"],
+        "context": [""]
+        },
+        {"tag":"html",
+        "patterns": ["html","what is html","html use for what"],
+        "responses": ["HyperText Markup language or (HTML) is use to create web pages"],      
+        "context": [""]
+        },
+        {
+        "tag":"info_html",
+        "patterns":[" Who is making the Web standards?"],
+        "responses":[" The World Wide Web Consortium  "],
+        "context": [""]
+        },
+                {
+        "tag":"heading_html",
+        "patterns":[" Choose the correct HTML element for the largest heading:"],
+        "responses":[" <h1>"],
+        "context": [""]
+        },
+                {
+        "tag":"break_html",
+        "patterns":[" What is the correct HTML element for inserting a line break? "],
+        "responses":["<br> "],
+        "context": [""]
+        },
+
+        {
+        "tag":"background_html",
+        "patterns":[" What is the correct HTML for adding a background color? "],
+        "responses":["<body style=background-color:yellow;> "],
+        "context": [""]
+        },
+        {
+        "tag":"important_text_html",
+        "patterns":[" Choose the correct HTML element to define important text"],
+        "responses":["<strong> "],
+        "context": [""]
+        },
+        {
+        "tag":"emphasized_html",
+        "patterns":[" HTML element to define emphasized text "],
+        "responses":["<em>"],
+        "context": [""]
+        },
+                {
+        "tag":"hyperlink_html",
+        "patterns":[" What is the correct HTML for creating a hyperlink?"],
+        "responses":["<a href=http://www.w3schools.com>W3Schools</a>  "],
+        "context": [""]
+        },
+        {
+        "tag":"end_tag_html",
+        "patterns":[" Which character is used to indicate an end tag?"],
+        "responses":["/ "],
+        "context": [""]
+        },
+        {
+        "tag":"table_html",
+        "patterns":[" Which of these elements are all <table> elements?"],
+        "responses":["<table><tr><td>"],
+        "context": [""]
+        },
+
+        {
+        "tag":"list_html",
+        "patterns":[" How can you make a numbered list?"],
+        "responses":["<ol>"],
+        "context": [""]
+        },
+        {
+        "tag":"bulleted_list_html",
+        "patterns":[" How can you make a bulleted list?"],
+        "responses":["<ul>"],
+        "context": [""]
+        },
+        {
+        "tag":"checkbox_html",
+        "patterns":[" What is the correct HTML for making a checkbox?"],
+        "responses":["<input type=checkbox> "],
+        "context": [""]
+        },
+
+        {
+        "tag":"drop_down_html",
+        "patterns":[" What is the correct HTML for making a drop-down list?"],
+        "responses":["<select> "],
+        "context": [""]
+        },
+        {
+        "tag":"text_area_html",
+        "patterns":[" What is the correct HTML for making a text area?"],
+        "responses":["<textarea>"],
+        "context": [""]
+        },
+
+        {
+        "tag":"comments_html",
+        "patterns":[" HTML comments ?"],
+        "responses":["  start with <!-- and end with -->"],
+        "context": [""]
+        },
+
+        {
+        "tag":"title_html",
+        "patterns":[" Which HTML element defines the title of a document?"],
+        "responses":["<title>"],
+        "context": [""]
+        },
+        {
+        "tag":"attribute_html",
+        "patterns":[" Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?"],
+        "responses":[" alt "],
+        "context": [""]
+        },
+                {
+        "tag":"doctype_html",
+        "patterns":[" Which doctype is correct for HTML5?"],
+        "responses":["<!DOCTYPE html>  "],
+        "context": [""]
+        },
+        {
+        "tag":"ifooter_html",
+        "patterns":[" Which HTML element is used to specify a footer for a document or section?"],
+        "responses":["<footer>"],
+        "context": [""]
+        },
+        {
+        "tag":"playing_video_html",
+        "patterns":[" What is the correct HTML element for playing video files?"],
+        "responses":["<video>"],
+        "context": [""]
+        },
+
+        {
+        "tag":"audio_html",
+        "patterns":[" What is the correct HTML element for playing audio files?"],
+        "responses":["<audio>"],
+        "context": [""]
+        },
+        {
+        "tag":"graphics_html",
+        "patterns":[" The HTML  element is used to draw graphics?"],
+        "responses":["<canvas>"],
+        "context": [""]
+        },
+        {
+        "tag":"slider_control_html",
+        "patterns":[" Which input type defines a slider control?"],
+        "responses":[" Range"],
+        "context": [""]
+        },
+        {
+        "tag":"scalar_html",
+        "patterns":[" Which HTML element is used to display a scalar measurement within a range?"],
+        "responses":["<meter>"],
+        "context": [""]
+        },
+        {
+        "tag":"links_html",
+        "patterns":[" Which HTML element defines navigation links?"],
+        "responses":["<nav>"],
+        "context": [""]
+        },
+        {
+        "tag":"dsection_html",
+        "patterns":[" Which HTML element is used to specify a header for a document or section?"],
+        "responses":["<header>"],
+        "context": [""]
+        },
+        {
+        "tag":"documents_html",
+        "patterns":[" In HTML ,what documents must start with?"],
+        "responses":["<!DOCTYPE html>"],
+        "context": [""]
+        },
+        {
+        "tag":"begins_html",
+        "patterns":[" In HTML  document itself begins with?"],
+        "responses":["<html> and ends with </html>"],
+        "context": [""]
+        },
+        
+        
+        {
+        "tag":"visible_part_html",
+        "patterns":[" The visible part of the HTML document is between?"],
+        "responses":["<body> and </body>"],
+        "context": [""]
+        },
+
+        
+        {
+        "tag":"headings_html",
+        "patterns":[" In HTML headings are defined with ?"],
+        "responses":["<h1> to <h6> tags "],
+        "context": [""]
+        },
+
+        {
+        "tag":"paragraphs_html",
+        "patterns":[" In HTML  paragraphs are defined with the?"],
+        "responses":["<p> tag."],
+        "context": [""]
+        },
+        {
+        "tag":"images_html",
+        "patterns":[" HTML images are defined with the ?"],
+        "responses":["<img> tag  The source file (src), alternative text (alt), width, and height are provided as attributes"],
+        "context": [""]
+        },
+         {
+         "tag":"View_html",
+         "patterns":[" How to View HTML Source?"],
+         "responses":[" Right-click in an HTML page and select View Page Source (in Chrome) "],
+         "context": [""]
+         },
+         {
+        "tag":"style_Attribute_html",
+        "patterns":[" The style Attribute?"],
+        "responses":[" The style attribute is used to add styles to an element, such as color, font, size, and more "],
+        "context": [""]
+        },
+        {
+        "tag": "css",
+        "patterns": ["css","what is css","css use for what"],
+        "responses": ["cascading style sheets or (css) describes how html elements are to be displayed"],
+        "context": [""]
+        },
+        {
+        "tag": "Syntax_css",
+        "patterns": ["How do I build a css Syntax","How do I make a css Syntax"],
+        "responses": ["h1 { color: red; font-size: 12px ; } this is css Syntax "],
+        "context": [""]
+        },
+        
+        {"tag": "sentence_css",
+        "patterns": ["How do I define a css sentence","How do I get a predefined sentence in css","css class Selector"],
+        "responses": [".center { text-align: center ; color: red; } ...... <p class='center large'>This paragraph refers to two classes.</p>"],
+        "context": [""]
+        },
+        
+        {"tag": "Selector_css",
+        "patterns": ["css id Selector"],
+        "responses": ["#center { text-align: center ; color: red; } ...... <p id='center large'>This paragraph refers to two classes.</p>"],
+        "context": [""]
+        },
+        
+        {"tag": "All_elements_css",
+        "patterns": ["Selects all elements in css"],
+        "responses": ["*{ text-align: center ; color: blue; }"],
+        "context": [""]
+        },
+        
+        {"tag": "External_css",
+        "patterns": ["How to write External css code"],
+        "responses": ["Write all the codes you want to write and then run sevas (......).css"],
+        "context": [""]
+        },
+        
+        {"tag": "Comment_css ",
+        "patterns": ["How does a comment work in css ","How do I write an explanation of the code I want later in css ","How to write a code, keep it between the codes in css "],
+        "responses": ["/* ....... */ this is comment"],
+        "context": [""]
+        },
+        
+        {"tag": "Color_css",
+        "patterns": ["Color in css","How do I color a line in css","How to color h1 or p or div in css"],
+        "responses": ["style='color:Tomato;' ==> this is Color"],
+        "context": [""]
+        },
+        
+        {"tag": "Background_css",
+        "patterns": ["How does Background Color css work","CSS Background Color","How to Background h1 or p or div in css"],
+        "responses": ["style='background-color:DodgerBlue;' ==> this is Background "],
+        "context": [""]
+        },
+        
+        {"tag": "Border_css",
+        "patterns": ["CSS border Color","How to make a border in css"],
+        "responses": ["style=' border:2px solid Tomato;' ==> this is Border"],
+        "context": [""]
+        },
+        
+        {"tag": "Margins_css",
+        "patterns": ["how create space around elements in css"],
+        "responses": ["p { margin: 25px 50px 75px 100px; } ==> top margin is 25px  , right margin is 50px , bottom margin is 75px , left margin is 100px"],
+        "context": [""]
+        },
+        
+        {"tag": "Padding_css",
+        "patterns": ["how is to create space around an element's content in css"],
+        "responses": ["p { padding: 25px 50px 75px 100px; } ==> top padding is 25px  , right padding is 50px , bottom padding is 75px , left padding is 100px"],
+        "context": [""]
+        },
+        
+        {"tag": "Height_Width_css",
+        "patterns": ["How the length and width work in css"],
+        "responses": ["div { height: 200px; width: 50%; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Box_Model_css",
+        "patterns": ["How to make Box Model in css"],
+        "responses": ["div { width:300px ; border:15px solid green ; padding:50px ;  margin:20px ; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Outline_css",
+        "patterns": ["How Outline Style works in css"],
+        "responses": ["p.outset {outline-style: outset;}"],
+        "context": [""]
+        },
+        
+        {"tag": "programs_css",
+        "patterns": ["What are the best programs to use in css","What is the easiest program to use css","What is the appropriate program to use css"
+        ,"What program do you recommend using CSS","Programs used to write CSS"],
+        "responses": ["Brackets , Notepad++ , Visual studio code"],
+        "context": [""]
+        },
+        
+        {"tag": "Font_css",
+        "patterns": ["How do change the font in CSS"],
+        "responses": ["p2 {  font-family: Arial, Helvetica, sans-serif; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Font_Size_css",
+        "patterns": ["How do change the Font Size in CSS"],
+        "responses": ["h1 {  font-size: 40px; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Icons_css",
+        "patterns": ["How do we put an Icons in css?","How do change an Icons in CSS?"],
+        "responses": ["glyphicon glyphicon-Name the Icons"],
+        "context": [""]
+        },
+        
+        {"tag": "Lists_css",
+        "patterns": ["How do make a list in css"],
+        "responses": ["ul.a { list-style-type: circle; }   or   ol.c { list-style-type: upper-roman; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Tables_css",
+        "patterns": ["How do make a table in CSS"],
+        "responses": ["table, th, td { border: 1px solid; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Table_Size_css",
+        "patterns": ["How do change an table size in CSS"],
+        "responses": ["table { width: 100%; }   th { height: 70px; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Table_Alignment_css",
+        "patterns": ["How to change the place of speech in the table in css","Work Table Alignment"],
+        "responses": ["td { text-align: center; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Table_Style_css",
+        "patterns": ["How do make a Table Style in CSS"],
+        "responses": ["th, td { padding: 15px  ;  text-align: left; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Display_Property_css",
+        "patterns": ["How The display property specifies in CSS"],
+        "responses": ["th, td { padding: 15px  ;  text-align: left; }"],
+        "context": [""]
+        },
+        
+        {"tag": "max_width_css",
+        "patterns": ["What is max-width in css"],
+        "responses": ["max-width is similar to width"],
+        "context": [""]
+        },
+        
+        {"tag": "position_css",
+        "patterns": ["How The position property specifies in CSS"],
+        "responses": ["position: static;"],
+        "context": [""]
+        },
+        
+        {"tag": "position_Type_css",
+        "patterns": ["what is it position Type in CSS"],
+        "responses": ["static , relative , fixed , absolute , sticky"],
+        "context": [""]
+        },
+        
+        {"tag": "z-index_css",
+        "patterns": ["How z-index property specifies in CSS"],
+        "responses": ["img { position: absolute ; left: 0px ; top: 0px ; z-index: -1; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Layout_Overflow_css",
+        "patterns": ["How does CSS overflow work?"],
+        "responses": ["div { width: 200px ;  height: 65px ;  background-color: coral ; overflow: visible; }"],
+        "context": [""]
+        },
+        
+        {"tag": "float_css",
+        "patterns": ["how  The CSS float property specifies"],
+        "responses": ["img { float: right; }"],
+        "context": [""]
+        },
+        
+        {"tag": "clear_css",
+        "patterns": [" How clear property specifies in css"],
+        "responses": ["div2 { clear: left; }"],
+        "context": [""]
+        },
+        
+        {"tag": "inline_block_css",
+        "patterns": ["How does inline-block work in css"],
+        "responses": ["span.b { display: inline-block; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Align_css",
+        "patterns": ["How does Align Elements work in css"],
+        "responses": ["text-align: center;"],
+        "context": [""]
+        },
+        
+        {"tag": "Combinators_css",
+        "patterns": ["If you want to change the color of two things together in css","How Combinators Work in css"],
+        "responses": ["div + p { background-color: yellow; }  or  div ~ p { background-color: yellow; }  or div > p { background-color: yellow; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Navbar_css",
+        "patterns": ["How Navbar works in css","How to change Navbar in css"],
+        "responses": ["<ul> <li><a href='default.asp'>Home</a></li>   <li><a href='news.asp'>News</a></li>   <li><ahref='contact.asp'>Contact</a></li>   <li><a href='about.asp'>About</a></li></ul>"],
+        "context": [""]
+        },
+        
+        {"tag": "Vertical_Navigation_css",
+        "patterns": ["How Vertical Navigation works in css","How to change Vertical Navigation in css"],
+        "responses": ["li a { display: block ;  width: 60px; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Horizontal_Navigation_css",
+        "patterns": ["How Horizontal Navigation works in css"],
+        "responses": ["a { display: block ; padding: 8px ; background-color: #dddddd; }"],
+        "context": [""]
+        },
+        
+        {"tag": "Image_css",
+        "patterns": ["How Image works in css","How to change Image in css"],
+        "responses": ["div.gallery img { width: 100% ; height: auto;"],
+        "context": [""]
+        },
+        
+        {"tag": "Counters_css",
+        "patterns": ["How Counters works in css"],
+        "responses": ["h2::before { counter-increment: section ;  content: 'Section ' counter(section) ': '; }"],
+        "context": [""]
+        },
+        {"tag": "Print_c_sharp",
+         "patterns": ["c# - Method not Printing?","Good ways to print data from C#?","Print int in c sharp","Print C#","Print C-sharp","How will you Print the data in C#?","How do you Print a paragraph in C#?","Which option is used for printing the documents int in c sharp?","How can you Print text or another selected item int in c sharp?"
+         ,"print text int in c sharp"," Console.WriteLine(); int in c sharp"],
+          "responses": [" Console.WriteLine('Hello World!');"],
+         "context": [""]
+        },
+        {"tag": "c_sharp",
+         "patterns": ["c#","what is C# ","c# use for what","c sharp ","what is C sharp ","c sharp use for what"],
+          "responses": ["c# or(c sharp) is a programming language"],
+         "context": [""]
+        },
+        
+        {"tag": "Comment_c_sharp",
+         "patterns": ["comment int in c sharp","How do I make a comment in C Sharp?","How do I make a comment in C-Sharp?", "How do I make a comment in C#?","Writing texts to clarify the code and does not implement  int in c sharp","Comments at end of method best practice int in c sharp?"],
+         "responses": ["//This is comment"],
+         "context": [""]
+        },
+        
+        {"tag": "Variables_c_sharp",
+         "patterns": ["What is the question mark on a variable C#?", "How do you call a variable from another function in C#?","What are question variables int in c sharp?", "How do you give a value to a variable in C#?","variables","How can I get the data type of a variable in C#?"],
+         "responses": ["string name = 'John';Console.WriteLine(name);","int myNum = 15;Console.WriteLine(myNum);"],
+         "context": [""]
+        },
+        
+        {"tag": "int_c_sharp",
+         "patterns": ["varible int in c sharp","data types int in c sharp","integer whole numbers int in c sharp","integer int in c sharp",
+         "whole numbers int in c sharp","What is the data type for int int in c sharp?","Is int a data type in C#?","I need to know the whole number int in c sharp","int int in c sharp","Stores whole numbers int in c sharp"],
+         "responses": ["int myNum = 5;"],
+         "context": [""]
+        },
+        
+         
+        {"tag": "double_c_sharp",
+         "patterns": ["Stores fractional numbers","varible double","data type double","fractional numbers","What is the data type for double?","Is double a data type in C#?","I need to know the fractional number","double"],
+         "responses": ["double myDoubleNum = 5.99;"],
+         "context": [""]
+        },
+         
+        {"tag": "char_c_sharp",
+        "patterns": ["Stores a single character/letter, surrounded by single quotes","varible char","data type char","What is the data type for char?","Is char a data type in C#?","I need to know the Stores a single character ","char"],
+         "responses": ["char myLetter = 'D';"],
+         "context": [""]
+        },
+         
+        {"tag": "bool_c_sharp",
+         "patterns": ["Stores true or false values in c sharp","varible bool in c sharp","data type bool in c sharp","What is the data type for bool in c sharp?",
+         "Is bool a data type in C#?","I need to know the Stores true or false values in c sharp","bool in c sharp"],
+         "responses": ["bool myBool = true;"],
+         "context": [""]
+        },
+         
+       
+        
+        {"tag": "Input_c_sharp",
+         "patterns": ["User Input in c sharp","I want the user to enter the data","user enter data in c sharp"],
+         "responses": ["Console.WriteLine('Enter username:');string userName = Console.ReadLine();Console.WriteLine('Username is: ' + userName);"],
+         "context": [""]
+        },
+        {"tag": "Operators_c_sharp",
+         "patterns": ["How are arithmetic operations such as addition, subtraction in c sharp, multiplication in c sharp, and division performed?","addition in c sharp","+ in c sharp", "subtraction in c sharp",
+         "- in c sharp", "multiplication in c sharp","* in c sharp","division in c sharp","/ in c sharp","arithmetic operations in c sharp"],
+         "responses": ["int x = 100 + 50;"],
+         "context": [""]
+        },
+        {"tag": "Math_c_sharp",
+         "patterns": ["Math in c sharp","Max in c sharp","Min in c sharp","Sqrt in c sharp","Pow in c sharp","cbrt in c sharp","I want to find the square root in c sharp","I want to find the cube root in c sharp",
+         "I want to find the Pow in c sharp","I want to know the largest number of numbers in c sharp","I want to know the smallest number of numbers in c sharp"],
+         "responses": ["Math.Max(5, 10); Math.Min(5, 10); Math.Sqrt(64); Math.pow(6,2); Math.cbrt(8);"],
+         "context": [""]
+        },
+        {"tag": "Strings_c_sharp",
+         "patterns": ["What is a verbatim string C#?","String in c sharp","I want to know words or names or text","string"],
+         "responses": ["string firstName = 'John';string lastName = 'Doe';string name = firstName + lastName;Console.WriteLine(name);"],
+         "context": [""]
+        },
+        {"tag": "Booleans_c_sharp",
+         "patterns": ["How do you write Boolean?","bool","Boolean in c sharp","bool true false in c sharp","Is bool false by default C#?","Is bool and Boolean same?","Is bool reference type C#?","How do you write a Boolean method in C#?"],
+         "responses": ["bool isCSharpFun = true;bool isFishTasty = false;Console.WriteLine(isCSharpFun);   // Outputs TrueConsole.WriteLine(isFishTasty);   // Outputs False"],
+         "context": [""]
+        },
+        {"tag": "If_c_sharp",
+         "patterns": ["I want to say if you fulfill this condition for this to happen","if else in c sharp","if in c sharp","What is the alternative of if?","Which is shorthand of if else statement?","What are the different forms of if else statement?","if condition "],
+        "responses": ["if (x>3){ Console.WriteLine('x more than 3');} else{'x less than 3'}"],
+        "context": [""]
+        },
+        
+        {"tag":"Switch_c_sharp",
+        "patterns":["What is switch statement in C sharp?","switch in c sharp","Is there switch case in C#?","Switch case","What can be used to switch status?","Switch"],
+        "responses":["int day = 4;switch (day) {case 1: Console.WriteLine('Monday');break; case 2: Console.WriteLine('Tuesday'); break; case 3: Console.WriteLine('Wednesday'); break; case 4: Console.WriteLine('Thursday'); break; case 5: Console.WriteLine('Friday'); break; case 6: Console.WriteLine('Saturday'); break; case 7: Console.WriteLine('Sunday'); break;}// Outputs 'Thursday' (day 4)"],
+        "context": [""]
+        },
+          {"tag":"While_c_sharp",
+          "patterns":["While loop","How do you break a while loop in C#?","While in c sharp","how to write code while loop","I want to learn to write while loop"],
+          "responses":["int i = 0; while (i < 5) { Console.WriteLine(i); i++; }"],
+          "context": [""]
+          },
+        {
+        "tag":"For_c_sharp",
+        "patterns":["Is there a for loop in C#?","What is the syntax of for loop in C#?","I want to repeat many numbers","For in c sharp"],
+        "responses":["for (int i = 0; i <= 10; i = i + 2) { Console.WriteLine(i); }"],
+        "context": [""]
+        },
+         {
+         "tag":"Break_c_sharp",
+         "patterns":["What type of statements are break and continue?","What is continue and break statement in C#?","Break and Continue in c sharp"],
+         "responses":["int i = 0;while (i < 10) { if (i == 4)   { i++; continue;  } Console.WriteLine(i); i++; }"],
+         "context": [""]
+         },
+        {
+        "tag":"Arrays_c_sharp",
+        "patterns":["How do arrays work C sharp?","What is an array in C sharp ?","array in c sharp","how to write code array?","I want to write an array correctly"],
+        "responses":["string[] cars = {'Volvo', 'BMW', 'Ford','Mazda'}; Console.WriteLine(cars[0]); // Outputs Volvo"],
+        "context": [""]
+        },
+        {"tag": "nmap",
+        "patterns": ["what is nmap","nmap","we use nmap in what","nmap use for what"],
+        "responses": ["nmap is a opean source use for scan website"],
+        "context": [""]
+        },
+        {"tag": "install_nmap",
+        "patterns": ["how to install nmap in windows","nmap in windows","how to install nmap in linux","nmap in linux"],
+        "responses": ["go to this link to install nmap "],
+        "context": [""]
+        },
+        {"tag": "scan_one_target_nmap",
+        "patterns": ["scan one target in nmap","scan target in nmap"],
+        "responses": ["nmap 192.168.10.1"],
+        "context": [""]
+        },
+        {"tag": "scan_more_target_nmap",
+        "patterns": ["scan more than one target in same time","scan 2 target in nmap"],
+        "responses": ["nmap 192.168.10.1 192.168.10.100 192.168.10.101"],
+        "context": [""]
+        },
+        {"tag": "rundom_target_nmap",
+        "patterns": ["scan rundom target in nmap","rundom target in nmap"],
+        "responses": ["nmap -iR 1"],
+        "context": [""]
+        }
+        ,
+        {"tag": "range_ports_nmap",
+        "patterns": ["Scan a range ports in nmap","range in nmap"],
+        "responses": ["nmap 192.168.1.1-254"],
+        "context": [""]
+        },
+        {"tag": "domain_nmap",
+        "patterns": ["Scan a domain in nmap","domain in nmap in nmap"],
+        "responses": ["nmap scanme.nmap.org"],
+        "context": [""]
+        },
+        {"tag": "target_infile_nmap",
+        "patterns": ["Scan targets from a file in nmap","file in nmap in nmap"],
+        "responses": ["nmap -iL targets.txt"],
+        "context": [""]
+        },
+        {"tag": "UDP_nmap",
+        "patterns": ["UDP port scan in nmap","scan a port UDP in nmap"],
+        "responses": ["nmap 192.168.1.1 -sU"],
+        "context": [""]
+        },
+        {"tag": "TCP_nmap",
+        "patterns": ["TCP connect port scan in nmap","scan a TCP port in nmap"],
+        "responses": ["nmap scanme.nmap.org"],
+        "context": [""]
+        },
+        {"tag": "port_x_nmap",
+        "patterns": ["Port scan for port x in nmap","scan a spicifice port in nmap"],
+        "responses": ["nmap scanme.nmap.org"],
+        "context": [""]
+        },
+        {"tag": "DNS_nmap",
+        "patterns": ["Never do DNS resolution in nmap","dont DNS resolution in nmap"],
+        "responses": ["nmap 192.168.1.1 -n "],
+        "context": [""]
+        },
+        {"tag": "fast_nmap",
+        "patterns": ["Fast port scan","fast scan","scan fast"],
+        "responses": ["nmap 192.168.1.1 -F "],
+        "context": [""]
+        },
+        {"tag": "all_port_nmap",
+        "patterns": ["Port scan all ports","all port"],
+        "responses": ["nmap 192.168.1.1 -p-"],
+        "context": [""]
+        },
+        {"tag": "service",
+        "patterns": ["Port scan from service name","service name scan"],
+        "responses": ["nmap 192.168.1.1 -p http,https"],
+        "context": [""]
+        },
+        {"tag": "Paranoid",
+        "patterns": ["Paranoid (0) Intrusion Detection System evasion"],
+        "responses": ["nmap 192.168.1.1 -T0"],
+        "context": [""]
+        },
+        {"tag": "Sneaky",
+        "patterns": ["Sneaky (1) Intrusion Detection System evasion"],
+        "responses": ["nmap 192.168.1.1 -T1"],
+        "context": [""]
+        },
+        {"tag": "Normal",
+        "patterns": ["Normal (3) which is default speed "],
+        "responses": ["nmap 192.168.1.1 -T3"],
+        "context": [""]
+        },
+        {"tag": "Normal_output",
+        "patterns": ["Normal output to the file normal.file"],
+        "responses": ["nmap 192.168.1.1 -oN normal.file"],
+        "context": [""]
+        },
+        {"tag": "xml",
+        "patterns": ["XML output to the file xml.file"],
+        "responses": ["nmap 192.168.1.1 -oX xml.file"],
+        "context": [""]
+        },
+        {"tag": "open_ports",
+        "patterns": ["Only show open ports","possibly open ports"],
+        "responses": ["nmap 192.168.1.1 --open"],
+        "context": [""]
+        },
+        {"tag": "IPv6",
+        "patterns": ["Enable IPv6 scanning","IPv6 scanning","scan IPv6"],
+        "responses": ["nmap -6 2607:f0d0:1002:51::4 "],
+        "context": [""]
+        },
+        {"tag": "help",
+        "patterns": ["nmap help screen in nmap","help in nmap","option in nmap"],
+        "responses": ["nmap -h "],
+        "context": [""]
+        },
+        {"tag": "TCP_SYN",
+        "patterns": ["TCP SYN port scan","scan TCP SYN port"],
+        "responses": ["nmap 192.168.1.1 -sS"],
+        "context": [""]
+        },
+        {"tag": "TCP_ACK",
+        "patterns": ["TCP ACK port scan"],
+        "responses": ["nmap 192.168.1.1 -sA"],
+        "context": [""]
+        },
+        {"tag": "TCP_Window",
+        "patterns": ["TCP Window port scan"],
+        "responses": ["nmap 192.168.1.1 -sW"],
+        "context": [""]
+        },
+        {"tag": "TCP_Maimon",
+        "patterns": ["TCP Maimon port scan"],
+        "responses": ["nmap 192.168.1.1 -sM "],
+        "context": [""]
+        },
+        {"tag": "default_speed",
+        "patterns": ["Normal 3 which is default speed"],
+        "responses": ["nmap 192.168.1.1 -T3"],
+        "context": [""]
+        },
+        {"tag": "default_NSE",
+        "patterns": ["Scan with default NSE scripts"],
+        "responses": ["nmap 192.168.1.1 -sC"],
+        "context": [""]
+        },
+        {"tag": "single_script",
+        "patterns": ["Scan with a single script"],
+        "responses": ["nmap 192.168.1.1 --script=banner"],
+        "context": [""]
+        },
+        {"tag": "wildcard",
+        "patterns": ["Scan with a wildcard"],
+        "responses": ["nmap 192.168.1.1 --script=http*"],
+        "context": [""]
+        },
+        {"tag": "two_scripts",
+        "patterns": ["Scan with two scripts"],
+        "responses": ["nmap 192.168.1.1 --script=http,banner"],
+        "context": [""]
+        },
+ {"tag": "not-correct-web",
+                "patterns": ["web","web Mobile Applications ","web cyber security","web security","web cyber","web desktop","web .net","web123","web==","web++","web 12345"],
+                "responses": ["your search not correct &#10060 if you search for a company write the track then the center, if you want to learn web just write learn web or the name of the other track"],
+                "context": [""]
+                } ,
+
+
+        {"tag": "not-correct-cyber",
+                "patterns": ["cyber security","cyber web","cyber .net","cyber desktop","cyber Mobile","cyber security web","cyber security .net","cyber security desktop","cyber security  Mobile","cyber123","cyber==","cyber++","cyber 12345"],
+                "responses": ["your search not correct &#10060 if you search for a company write the track then the center, if you want to learn cyber just write learn cyber or the name of the other track"],
+                "context": [""]
+                },
+        {"tag": "not-correct-desktop",
+                "patterns": ["desktop","desktop web","desktop .net","desktop cyber","desktop cyber security","desktop Mobile ","desktop123","desktop==","desktop++","desktop 12345"],
+                "responses": ["your search not correct &#10060 if you search for a company write the track then the center, if you want to learn desktop just write learn desktop or the name of the other track"],
+                "context": [""]
+                }  ,
+        {"tag": "not-correct-Mobile",
+                "patterns": ["Mobile","Mobile web","Mobile .net","Mobile desktop","Mobile cyber security","Mobile123","Mobile==","Mobile++","Mobile 12345"],
+                "responses": ["your search not correct &#10060 write the track then the center, if you want to learn mobile just write learn mobile or the name of the other trackh"],
+                "context": [""]
+                },
+       
+
+
+        {"tag":"withot_track",
+                "patterns":["Assuit","Cairo","Alexandria","Sohag","Giza","luxor","Qena","Minya","Beni Suef","Fayoum","Suiz","Ismailia","Sharqia","Port Said","Damietta"],
+                "responses":["pleace write the track before the center &#10069"],
+                "context": [""]
+        },
+
+        {"tag": "Web_Assuit",
+                "patterns": ["Web Assuit",".net Assuit"],
+                "responses": ["<a href='https://www.t-petra.com/solutions/ '> Petra Software Ind</a> , <a href='https://www.vatoce.com/ar/ '> vatoce </a> , <a href='http://daleloo.com/' >  daleloo</a>"],
+                "context": [""]
+                } ,
+        {"tag": "Web_Cairo",
+                "patterns": ["Web Cairo"],
+                "responses": ["<a href='https://www.tqniait.com/'> tqniait </a> , <a href='https://www.ahrammedia.com/'>  ahrammedia </a>,<a href='https://rescody.com/ar/'>  rescody </a><br> <a href='https://matrixclouds.com/ar'>  matrixclouds </a>, <a href='https://www.3hand.net/'> 3hand  </a>, <a href='https://matrixclouds.com/ar'> matrixclouds  </a><br> <a href='https://www.magdsoft.com/'> magdsoft  </a>,<a href='https://www.abtechinternational.com/' > abtechinternational  </a>, <a href='https://adminvb.com/' >  adminvb   </a><br> <a href='https://www.softexsw.com/' >   softexsw   </a>,<a href='https://engazmedia.com/' >  engazmedia    </a>, <a href='https://keep-online.com/' >  keep-online    </a><br> <a href='https://www.hostf.it/' >  hostfit    </a>, <a href='https://www.ava-eg.com/' >  ava eg    </a>, <a href='https://khadamatk.com/' >  khadamatk  </a><br> <a href='https://www.sag-egypt.com/' >  sag egypt</a>, <a href='http://www.egyweb.com/' > egyweb </a>"],
+                "context": [""]
+                } ,
+        {"tag": "Web_Alexandria",
+                "patterns": ["Web Alexandria"],
+                "responses": ["<a href='https://www.codeincode.com/'> codeincode  </a>, <a href='https://www.evisionegypt.com/index.php/ar/'> evisionegypt  </a>, <a href='https://www.gammal.tech/' >  gammal </a><br> <a href='https://technomasr.com/' >  technomasr </a>,<a href='https://www.al7osam.com.sa/' >  al7osam </a>, <a href='https://www.ramahost.com/webdevelopment' > ramahost  </a><br><a href='http://te-vision.com/' > vision  </a>"],
+                "context": [""]
+                } ,
+        {"tag": "Web_Sohag",
+                "patterns": ["Web Sohag"],
+                "responses": [" <a href='https://www.n5ba.com/'> n5ba  </a>  ,      <a href='https://roadeg.com/' > roadeg  </a>  ,<br> <a href='https://developerafndi.business.site/?utm_source=gmb&utm_medium=referral' > developerafndi  </a>   ,       <a href='https://sabelhost.com/index.php' >  sabelhost </a>  ,     <a href='https://www.simontec.tk/' >  simontec </a>   ,       <a href='https://5d5fd14c43830.site123.me/'>  pyramids software company </a>  ,<a href='http://queesoft.com/'>  queesoft </a>"],
+                "context": [""]
+                },
+        {"tag": "Web_Giza",
+                "patterns": ["Web Giza"],
+                "responses": [" <a href='https://webdesignofegypt.net/' >  webdesignofegypt </a>  ,      <a href='https://www.spark-sys.com/' >  spark </a>  ,  <br>     <a href='https://it-plus.co/ar' >  it-plus  </a>  ,      <a href='http://rescody.com/ar/' >  rescody  </a>  ,<br>      <a href='https://www.waiteg.com/' >  waiteg  </a>   ,      <a href='https://rdi-eg.ai/' >  rdi  </a>   ,<br>       <a href='https://gizahost.com.eg/' >  gizahost  </a>  ,       <a href='https://ecovne.com/' > ecovne   </a>   ,<br>       <a href='https://www.egyblanco.com/' >  egyblanco   </a>  ,       <a href='https://matrixclouds.com/ar' >   matrixclouds  </a>    , <br>       <a href='https://egyptvision.net/' >  egyptvision    </a>   ,       <a href='https://ideaworldweb.com/' >   ideaworldweb   </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Luxor",
+                "patterns": ["Web luxor"],
+                "responses": [" <a href='https://afaqsoft.com/' >   afaqsoft  </a>   ,       <a href='https://www.linkedin.com/company/luxordigital/?trk=similar-pages&originalSubdomain=ua' >   luxordigital  </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Qena",
+                "patterns": ["Web Qena"],
+                "responses": [" <a href='http://www.projmatic.com/'>   projmatic  </a>   ,       <a href='https://yallagroup.biz/' >  yallagroup   </a>   ,   <a href='https://yallaweb.co/' >   yallaweb  </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Minya",
+                "patterns": ["Web Minya"],
+                "responses": [" <a href='https://brmja.tech/' >   brmjatech  </a>  ,      <a href='https://www.nzamk.net/' >  nzamk   </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Beni Suef",
+                "patterns": ["Web Beni Suef"],
+                "responses": [" <a href='https://zeinahost.com/' >  SEO    </a>  ,  <a href='https://www.egy4web.com/' >  egy4web    </a>  , <br><a href='https://www.easysoft-eg.com/' >  easysoft    </a>   , <a href='https://www.siteupmarketing.com/' >  siteupmarketing    </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Fayoum",
+                "patterns": ["Web Fayoum"],
+                "responses": ["<a href='http://www.nadahost.net/'target='_blank'>  nadahost    </a>   ,      <a href='https://www.bluemediaco.com/'>  bluemediaco    </a>  ,      <a href='http://www.rightbs.com/' >   rightbs   </a>   , <br>      <a href='https://www.linkedin.com/in/roaya-host-0b65b1127/?originalSubdomain=eg'>   roaya   </a>   ,       <a href='https://pixel4agency.com/'>   pixel4agency   </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Suiz",
+                "patterns": ["Web Suiz"],
+                "responses": ["<a href='https://www.ensignagency.com/' >   ensignagency   </a> ,      <a href='https://www.el-abda3.com/' >   abda3   </a>"],
+                "context": [""]
+                },
+        {"tag": "Web_Ismailia",
+                "patterns": ["Web Ismailia"],
+                "responses": ["<a href='https://www.sag-egypt.com/ '>  sag    </a>  ,      <a href='https://www.facebook.com/ElephantWeb' >  ElephantWeb    </a>  ,  <br>     <a href='http://www.ever-eg.com/' >  ever    </a>  ,      <a href='https://indexgroup.net/' >  indexgroup    </a> "],
+                "context": [""]
+                } ,
+        {"tag": "Web_Sharqia",
+                "patterns": ["Web Sharqia"],
+                "responses": ["<a href='https://brmja.com/'>   brmja   </a>   ,      <a href='https://egyshellhosting.com/' >   egyshellhosting   </a>    ,  <br>     <a href='https://adasoft-company.business.site/?utm_source=gmb&utm_medium=referral' >   adasoft   </a>    ,       <a href='https://www.shoman.com.eg/'>   shoman   </a>    ,     <br>   <a href='https://webarabi.com/' >   webarabi   </a>   ,       <a href='https://digitalsolutionegypt.com/'>   digitalsolutionegypt   </a>   ,   <br>   <a href='http://tayf.co/' >   tayf   </a>   ,        <a href='https://www.facebook.com/starkomSoft/'>   starkomSoft   </a>    ,  <br>    <a href='https://elkaiyan.com/' >   elkaiyan   </a> "],
+                "context": [""]
+                },
+        {"tag": "Web_Port Said",
+                "patterns": ["Web Port Said"],
+                "responses": ["<a href='https://hdsmartsoft.com/' >   hdsmartsoft   </a>  ,      <a href='https://www.logic-sys.com/' >   hdsmartsoft   </a>   ,   <br>   <a href='https://www.hayl.com/' >   hayl   </a>  ,       <a href='http://www.dotnaat.com/'>   dotnaat   </a> "],
+                "context": [""]
+                } ,   
+
+        {"tag": "Web_Damietta",
+                "patterns": ["Web Damietta"], 
+                "responses": ["<a href='https://kenana-soft.com/ar/our_webapps.php' >   kenana   </a>   ,       <a href='https://www.sunsoft.me/' >   sunsoft   </a>    ,   <br>    <a href='https://smartsoftde.com/'>   smartsoftde   </a>   ,       <a href='https://www.baianat.com/' >   baianat   </a> "],
+                "context": [""]
+                }   ,
+        {"tag": "cyber_security_Cairo",
+                "patterns": ["cyber security  Cairo"],
+                "responses": ["<a href='https://flairstech.com/'> FlairsTech</a> , <a href='https://sevendynamic.com/'> Seven Dynamic </a><br><a href='https://isec.com.eg/'> iSec</a> , <a href='https://www.haktiv.com/'> HAKTIV</a>"],
+                "context": [""]
+                } ,
+        {"tag": "cyber_security_Giza",
+                "patterns": ["cyber security Giza","cyber security Giza"],
+                "responses": ["<a href='https://75bit.com/'> 75Bit</a> , <a href='https://www.infort.co/'> INFORT</a>"],
+                "context": [""]
+                } ,
+        {"tag": "cyber_security_Gharbia",
+                "patterns": ["cyber security Gharbia "],
+                "responses": ["<a href='https://hoor.io/'> Hoor for cybersecurity services</a> "],
+                "context": [""]
+                } ,
+
+        {"tag": "cyber_security_Minya",
+                "patterns": ["cyber security Minya "],
+                "responses": ["<a href='http://www.ses.com.eg/ar/'>SES</a> "],
+                "context": [""]
+                } ,
+        {"tag": "Mobile_Applications_Alexandria",
+                "patterns": ["Mobile Applications Alexandria"],
+                "responses": ["<a href='https://alexforprog.com/' >  alexforprog   </a>  ,  <a href='https://world-designs.com/' >  world-designs   </a>  <br />"],
+                "context": [""]
+                } ,
+        {"tag": "Mobile Applications_Cairo",
+                "patterns": ["Mobile Applications Cairo "],
+                "responses": ["<a href='https://www.xapps.co/en/' >   xapps   </a>  ,   <a href='https://2grand.net/' >   2grand   </a>  <br />    <a href='https://web-design.tqnia.me/index_en.html' >   tqnia   </a>  ,    <a href='https://muzawed.com/' >   muzawed   </a>  <br />     <a href='https://adminvb.com/' >   adminvb   </a>  ,   <a href='https://www.linkedin.com/company/rabt-tech/?originalSubdomain=eg' >   rabt   </a>  <br />      <a href='https://pioneers-solutions.com/' >   pioneers   </a>  ,   <a href='https://matrixclouds.com/ar' >   matrixclouds   </a>  <br />      <a href='https://www.ava-eg.com/' >   ava-eg   </a>  ,   <a href='https://ebtikar-it.com/' >   ava-eg   </a>  <br />     <a href='https://schemecode.com/' >  schemecode   </a>  ,      <a href='https://boldbrand.co/' >  boldbrand   </a>  <br />      <a href='https://www.estsolutions-eg.com/' >  estsolutions   </a>  ,   <a href='https://eg-coders.com/' >  eg-coders   </a>  <br /> "],
+                "context": [""]
+                } ,
+        {"tag": "Mobile Applications_Giza",
+                "patterns": ["Mobile Applications Giza "],
+                "responses": ["<a href='https://webstdy.com/ar' >  webstdy   </a>  ,  <a href='https://www.zone-tech.net/' >  zone-tech   </a>  <br />      <a href='https://www.estsolutions-eg.com/' >  estsolutions-eg   </a>  ,    <a href='https://nitg-eg.com/' >  NIT   </a>  <br />      <a href='https://ed3mny.net/' >  ed3mny   </a>  ,   <a href='https://it-plus.co/ar' >  it-plus   </a>  <br />      <a href='https://sevenreach.net/' >  sevenreach   </a>  <br />"],
+                "context": [""]
+                } ,
+
+        {"tag": "Mobile_Applications_Dakahlia",
+                "patterns": ["Mobile Applications Dakahlia"],
+                "responses": ["<a href='https://www.technomasr.com/' >  technomasr   </a>  ,    <a href='https://elfnon.com/' >  elfnon  </a>  <br />      <a href='https://www.linkedin.com/company/ipda3-tech/?originalSubdomain=eg' >  ipda3  </a>  ,   <a href='https://www.ibtdi.com/' >  ibtdi  </a>  <br />      <a href='https://nasey.com/' >  nasey  </a>  ,    <a href='https://elmtwer.com/' >  elmtwer  </a>  <br />      <a href='https://www.sotmasr.com/' >  sotmasr  </a>  ,    <a href='http://waitbuzz.com/' >  waitbuzz  </a>  <br />      <a href='https://tasmemplus.com/' >  tasmemplus  </a>  ,   <a href='https://devolum.com/' >  devolum  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+        {"tag": "Mobile_Applications_Menofia",
+                "patterns": ["Mobile Applications Menofia"],
+                "responses": ["<a href='https://www.al7osam.com.sa/' >  al7osam   </a>  ,   <a href='https://nofalseo.com/' >  nofalseo  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+
+        {"tag": "Mobile_Applications_Gharbia",
+                "patterns": ["Mobile Applications Gharbia "],
+                "responses": ["<a href='https://arab-apps.com/' >  arab-apps   </a>   ,  <a href='https://www.albadrsystems.com/ar/' >  albadrsystems   </a>  <br />    <a href='https://deltawy.in/' >  deltawy  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+
+
+        {"tag": "Mobile_Applications_Ash Sharqia",
+                "patterns": ["Mobile Applications Ash Sharqia"],
+                "responses": ["<a href='http://www.j7gate.com/' >  Your mobile life  </a>  ,   <a href='https://www.facebook.com/egyconnect/' >  egyconnect  </a>  <br />  "],
+                "context": [""]
+                } ,
+
+
+        {"tag": "Mobile_Applications_Sohag",
+                "patterns": ["Mobile Applications Sohag"],
+                "responses": ["<a href='https://www.n5ba.com/' >  n5ba  </a>  ,  <a href='https://www.simontec.tk/' >  simontec  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+        {"tag": "Mobile_Applications_Luxor",
+                "patterns": ["Mobile Applications Luxor"],
+                "responses": ["<a href='https://afaqsoft.com/' >  afaqsoft  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+        {"tag": "Mobile_Applications_Beni Suef",
+                "patterns": ["Mobile Applications Beni Suef"],
+                "responses": ["<a href='https://www.egy4web.com/' >  egy4web  </a>  , <a href='https://www.siteupmarketing.com/' >  siteupmarketing  </a>  <br /> "],
+                "context": [""]
+                } ,
+
+
+        {"tag": "Mobile_Applications_Minya",
+                "patterns": ["Mobile Applications Minya "],
+                "responses": ["<a href='https://www.nzamk.net/' >  nzamk  </a>  <br /> "],
+                "context": [""]
+                } ,
+        {"tag": "desktop_Cairo",
+             		"patterns": ["desktop Cairo"],
+             		"responses": ["<a href ='https://www.appfutura.com/create-app-project?dev=appenza'>appenza</a> ,<a href ='https://www.appfutura.com/create-app-project?dev=xapps-for-mcommerce-android-ios-mobile-applications'>XApps</a> ,<br><a href ='https://www.appfutura.com/create-app-project?dev=intcore'>Intcore</a> ,<a href ='https://www.appfutura.com/create-app-project?dev=wallet-factory'>Wallet Factory</a> <br> ,<a href ='https://www.appfutura.com/create-app-project?dev=appsInnovate'>Appsinnovate</a>,<a href ='https://clutch.co/profile/silicon-arena#summary'>silicon Arena</a> <br> ,<a href='https://clutch.co/profile/smarttech#summary'>SmartTech</a>"],
+              		"context": [""]
+         	       },
+
+        {"tag": "desktop_Alexandria",
+             		"patterns": ["desktop Alexandria"],
+             		"responses": ["<a href ='https://www.appfutura.com/create-app-project?dev=enozom'>Enozom</a>,<a href ='https://www.appfutura.com/create-app-project?dev=rubikal'>Rubikal</a>,<br> <a href ='https://www.appfutura.com/create-app-project?dev=GlobalImpactSoftware'>GlobalImpactSoftware</a><a href ='https://www.cubix.co/lp/g-app/?camp=g&refurl=http://goodfirms.co/'>cubix.</a>,<br><a href ='https://www.yomicepa.com/'>Yomicepa</a>,<a href='https://clutch.co/profile/innuva#summary'>innuva</a>"],
+              		"context": [""]
+         	       },
+
+        {"tag": "desktop_Sohag",
+             		"patterns": ["desktop Sohag"],
+             		"responses": ["<a href ='https://www.facebook.com/Petra.Sohag/?ref=page_internal'>Petra Software Ind</a>"],
+              		"context": [""]
+         	       },
+
+        {"tag": "desktop_Aswan",
+             		"patterns": ["desktop Aswan"],
+             		"responses": ["<a href ='https://www.openxcell.com/'>Openxcell</a>"],
+              		"context": [""]
+         	       }   
+]
+}
